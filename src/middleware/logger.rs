@@ -254,7 +254,7 @@ impl<B> Drop for StreamLog<B> {
                 }
                 Ok(())
             };
-            log::info!("{}", FormatDisplay(&render));
+            log::debug!("{}", FormatDisplay(&render));
         }
     }
 }
